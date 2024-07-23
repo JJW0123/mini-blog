@@ -1,11 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 
-import { Wrapper02 } from "./StyledComponents";
-
-const ContentText = styled.p`
-    font-size: 14px;
-`;
+import { Wrapper02, ContentText } from "./StyledComponents";
 
 function CommentListItem(props) {
     const {comment} = props;

@@ -13,7 +13,6 @@ export const Wrapper01 = styled.div`
     }
 `;
 
-
 export const Wrapper02 = styled.div`
     width: calc(100% - 32px);
     padding: 16px;
@@ -28,4 +27,13 @@ export const Wrapper02 = styled.div`
     :hover {
         background: lightgrey;
     }
+`;
+
+export const TitleText = styled.p`
+    font-size: 20px;
+    font-weight: 500;
+`;
+
+export const ContentText = styled.p`
+    font-size: 14px;
 `;

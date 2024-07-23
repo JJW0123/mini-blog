@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import CommentListItem from "./CommentListItem";
 
 import { Wrapper01 } from "./StyledComponents";

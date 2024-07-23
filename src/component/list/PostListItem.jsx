@@ -1,12 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 
-import { Wrapper02 } from "./StyledComponents";
-
-const TitleText = styled.p`
-    font-size: 20px;
-    font-weight: 500;
-`;
+import { Wrapper02, TitleText } from "./StyledComponents";
 
 function PostListItem(props) {
     const {post, onClick} = props;
