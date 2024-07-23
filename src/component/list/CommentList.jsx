@@ -24,7 +24,7 @@ function CommentList(props) {
                 return(
                     <CommentListItem
                         key={comment.id}
-                        comment={post}
+                        comment={comment}
                     />
                 );
             })}

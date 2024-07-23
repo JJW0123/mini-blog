@@ -43,6 +43,11 @@ const ContentText = styled.p`
     white-space: pre-wrap;
 `;
 
+const CommentLabel = styled.p`
+    font-size: 16px;
+    font-weight: 500;
+`;
+
 function PostViewPage(props) {
     const navigate = useNavigate();
     const {postId} = useParams();
