@@ -6,25 +6,7 @@ import TextInput from "../ui/TextInput";
 import data from "../../data.json"
 import CommentList from "../list/CommentList"
 
-const Wrapper = styled.div`
-    padding: 16px;
-    width: calc(100%-32px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`;
-
-const Container = styled.div`
-    width: 100%;
-    max-width: 720px;
-
-    & > * {
-        :not(:last-child) {
-            margin-bottom: 16px;
-        }
-    }
-`;
+import { Wrapper, Container } from "./StyledComponents";
 
 const PostContainer = styled.div`
     padding: 8px 16px;
