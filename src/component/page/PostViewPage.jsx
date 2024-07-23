@@ -62,7 +62,7 @@ function PostViewPage(props) {
         <Wrapper>
             <Container>
                 <Button
-                    title="바로가기"
+                    title="뒤로가기"
                     onClick={() => {
                         navigate("/");
                     }}
