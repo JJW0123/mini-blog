@@ -5,7 +5,7 @@ import MainPage from "./component/page/MainPage"
 import PostWritePage from "./component/page/PostWritePage"
 import PostViewPage from "./component/page/PostViewPage"
 
-const MainTitlePage = styled.p`
+const MainTitleText = styled.p`
   font-size: 24px;
   font-weight: bold;
   text-align: center;
